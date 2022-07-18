@@ -6,9 +6,9 @@ detector = Detector()
 img_route = "people.jpg"
 vid_route = 'test2.mp4'
 
-detector.processImage(img_route)
+# detector.processImage(img_route)
 
-# detector.processVideo(vid_route)
+detector.processVideo(vid_route)
 
 #detector.processCamera()
 
