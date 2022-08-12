@@ -38,11 +38,9 @@ class Detector:
             key = cv2.waitKey(1) & 0xFF
             if key == ord("q"):
                 break;
-            fps.update()
             
         
         fps.stop()
-        print ("End of the video \n FPS: {:,2f}" .format(fps.fps()))
         cap.release()
         cv2.destroyAllWindows()
         
